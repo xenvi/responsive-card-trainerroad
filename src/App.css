@@ -45,7 +45,8 @@
   width: 100%;
   min-height: 150px;
   padding: 16px;
-  box-shadow: 0 3px 10px #292929;
+  box-shadow: 0 5px 10px rgba(41,41,41,0.4);
+  transition: 0.3s all ease-in-out;
 }
 .card-svg {
   width: 176px;
@@ -76,6 +77,8 @@
   border-bottom: 1px solid #3F3F3F;
   padding: 8px 0;
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 .details-column {
   padding-right: 1.5em;
@@ -121,7 +124,7 @@
   }
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 400px) {
   .card-container {
     flex-direction: column;
   }
